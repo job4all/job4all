@@ -1,0 +1,90 @@
+<%= form_for(@user, url: update_profile_user_path(@user), html: {method: "put",:multipart => true}) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:
+      </h2>
+
+      <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+<center><h3>User Information</h3></center>
+<hr class="colorgraph">
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-xs-4">
+          <%= f.label :first_name %>
+          <%= f.text_field :first_name , :class => "form-control" %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :last_name %>
+          <%= f.text_field :last_name , :class => "form-control" %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :mobile %>
+          <%= f.text_field :mobile , :class => "form-control" , :placeholder=>"Enter Mobile # 333-1512111 " %>
+        </div>
+      </div>  
+<br>
+      <div class="row">
+        <div class="col-xs-4">
+        <%= f.label :fname %>
+        <%= f.text_field :fname , :class => "form-control" %>
+      </div>
+      <div class="col-xs-4">
+        <%= f.label :dob , "Date of Birth" %>
+        <%= f.date_field :dob, :class => "form-control"%>
+            <script>
+            $('#datepicker1').datepicker({format: 'yyyy-mm-dd'});
+            </script>
+      </div>
+      <div class="col-xs-4">
+        <%= f.label :cnic %>
+        <%= f.text_field :cnic , :class => "form-control" , :placeholder=>"Enter CNIC # 00000-0000000-0 " %>
+      </div>
+    </div>
+<br>
+      <div class="row">
+        <div class="col-xs-4">
+          <%= f.label :gender %>
+          <%= f.select :gender,options_for_select(%w[Male Female]), :class=>"form-control" %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :state_id %>
+          <%= f.collection_select(:state_id, State.all, :id, :name,{prompt: "Select State"}, class: "form-control") %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :city_id %>
+          <%= f.collection_select(:city_id, City.all, :id, :name,{prompt: "Select City"}, class: "form-control") %>
+        </div>
+      </div>
+<br>
+      <div class="row">
+        <div class="col-xs-4">
+          <%= f.label :address %>
+          <%= f.text_area :address , :class => "form-control" %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :skills %>
+          <%= f.text_area :skills , :class => "form-control" %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :resume %>
+          <%= f.file_field :resume %>
+        </div>
+      </div>
+<hr class="colorgraph">
+<br>
+  <div class="actions">
+    <%= f.submit "Save",:class => "btn btn-warning"%>
+  <%= link_to "Home",root_path,:class => "btn btn-warning"%>
+  </div>
+</div>
+
+</div>
+
+<% end %>

@@ -1,0 +1,30 @@
+<%= form_for(institute) do |f| %>
+  <% if institute.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(institute.errors.count, "error") %> prohibited this institute from being saved:</h2>
+
+      <ul>
+      <% institute.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+<div class="jumbotron">
+    <div class="panel-body">
+        <div class="col-xs-4">
+          <%= f.label :city_id, "Select City" %>
+          <%= f.collection_select(:city_id, City.all, :id, :name,{prompt: "Select City"}, class: "form-control") %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :name %>
+          <%= f.text_field :name , class: "form-control", placeholder: "Enter Institute Name" %>
+        </div>
+</div>
+</div>
+  <div class="actions">
+    <%= f.submit 'Save' , :class => "btn btn-info"%>
+    <%= link_to 'Back', institutes_path , :class => "btn btn-info"%>
+  </div>
+<% end %>

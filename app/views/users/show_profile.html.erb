@@ -1,0 +1,24 @@
+
+<center><h2 class="alert alert-info"><%= @user.first_name %> <%= @user.last_name %></h2></center>
+<div class="row">
+	<div class="col-md-8">
+		<%= render 'application/erinfo' %>
+	</div>
+
+	<div class="col-xs-4 col-md-2">
+		<%= avatar2(@user) %>
+	</div> 
+</div>
+
+<% if @user.educations.exists? %>
+	<%= render 'application/education' %>
+<% end %>
+
+<% if @user.experiences.exists? %>
+	<%= render 'application/experience' %>
+<% end %>
+
+
+
+
+	

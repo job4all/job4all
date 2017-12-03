@@ -1,0 +1,31 @@
+<%= form_for([@advertise, @advertise.jobs.build]) do |f| %>
+
+<div class="jumbotron">
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-xs-4">
+          <%= f.label :profession_id %>
+          <%= f.collection_select(:profession_id, Profession.all, :id, :name,{prompt: "Select Profession"}, class: "form-control") %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :qty %>
+          <%= f.number_field :qty, class: "form-control", placeholder: "Qty" %>
+        </div>
+      </div>
+<br>
+      <div class="row">
+        <div class="col-xs-4">
+          <%= f.label :degree_id %>
+          <%= f.collection_select(:degree_id, Degree.all, :id, :name,{prompt: "Select Degree"}, class: "form-control") %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :city_id %>
+          <%= f.collection_select(:city_id, City.all, :id, :name,{prompt: "Select City"}, class: "form-control") %>
+        </div>
+      </div>
+    </div>
+</div>
+  <div class="actions">
+    <%= f.submit "Save", :class => "btn btn-success"%>
+  </div>
+<% end %>

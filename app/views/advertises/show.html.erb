@@ -1,0 +1,11 @@
+ 
+<%= render 'jobs/job_list' %>
+
+<% if logged_in_admin? %> 
+<h2>Add a Job:</h2>
+<%= render 'jobs/form' %>
+<% end %>
+<center><%= image_tag @advertise.image.url(:medium) %></center>
+
+<%= link_to 'Edit', edit_advertise_path(@advertise) %> |
+<%= link_to 'Back', advertises_path %>

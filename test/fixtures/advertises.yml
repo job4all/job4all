@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  newspaper: one
+  title: MyString
+  state: MyString
+  description: MyString
+  idate: 2017-05-10
+  lastdate: 2017-05-10
+  organization: one
+  user: one
+
+two:
+  newspaper: two
+  title: MyString
+  state: MyString
+  description: MyString
+  idate: 2017-05-10
+  lastdate: 2017-05-10
+  organization: two
+  user: two

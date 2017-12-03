@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  advertise: one
+  profession: one
+  qty: 1
+  degree: one
+  city: one
+
+two:
+  advertise: two
+  profession: two
+  qty: 1
+  degree: two
+  city: two

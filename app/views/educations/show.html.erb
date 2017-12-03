@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tdegree:</strong>
+  <%= @education.tdegree.name %>
+</p>
+
+<p>
+  <strong>Degree:</strong>
+  <%= @education.degree.name %>
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  <%= @education.subject %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @education.city.name %>
+</p>
+
+<p>
+  <strong>Institute:</strong>
+  <%= @education.institute.name %>
+</p>
+
+<p>
+  <strong>Tmarks:</strong>
+  <%= @education.tmarks %>
+</p>
+
+<p>
+  <strong>Omarks:</strong>
+  <%= @education.omarks %>
+</p>
+
+<p>
+  <strong>Persent:</strong>
+  <%= @education.persent %>
+</p>
+
+<p>
+  <strong>Division:</strong>
+  <%= @education.division %>
+</p>
+
+<p>
+  <strong>Passyear:</strong>
+  <%= @education.passyear %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @education.user.first_name %>
+</p>
+
+<%= link_to 'Edit', edit_education_path(@education) %> |
+<%= link_to 'Back', educations_path %>

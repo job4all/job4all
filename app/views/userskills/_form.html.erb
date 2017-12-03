@@ -1,0 +1,32 @@
+<%= form_for(userskill) do |f| %>
+  <% if userskill.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(userskill.errors.count, "error") %> prohibited this userskill from being saved:</h2>
+
+      <ul>
+      <% userskill.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+  <div class="panel-body">
+      <div class="row">
+        <div class="col-xs-4">
+          <%= f.label :skill_id %>
+          <%= f.collection_select(:skill_id, Skill.all, :id, :name,{prompt: "Select Skill"}, class: "form-control") %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :"Using Since" %>
+          <%= f.select :lastd, options_for_select(%w[LessThen_1_Year 3Years 5Years 7Years  More_Then_10_Years]) %>
+        </div>
+      </div>
+</div>
+  <div class="actions">
+    <%= f.submit 'Add Userskill', :class => "btn btn-info"%>
+  </div>
+  </div>
+        </div>
+<% end %>

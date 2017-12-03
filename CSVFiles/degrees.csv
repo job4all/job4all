@@ -1,0 +1,338 @@
+id,tdegree_id,name
+1,1,5th
+2,2,8th
+3,3,Matric (Arts)
+4,3,Matric (Science)
+5,4,Fsc (Pri-Medical)
+6,4,Fsc (Pri-Engr)
+7,4,Fsc (Pri-ICS)
+8,4,FA
+9,5,Bachelor of Architecture
+10,5,Bachelor of Biomedical Science
+11,5,Bachelor of Business Administration
+12,5,Bachelor of Clinical Science
+13,5,Bachelor of Commerce
+14,5,Bachelor of Computer Applications
+15,5,Bachelor of Computer Information Systems
+16,5,Bachelor of Science in Construction Technology
+17,5,Bachelor of Criminal Justice
+18,5,Bachelor of Divinity
+19,5,Bachelor of Economics
+20,5,Bachelor of Education
+21,5,Bachelor of Engineering
+22,5,Bachelor of Fine Arts
+23,5,Bachelor of Letters
+24,5,Bachelor of Information Systems
+25,5,Bachelor of Management
+26,5,Bachelor of Music
+27,5,Bachelor of Pharmacy
+28,5,Bachelor of Philosophy
+29,5,Bachelor of Social Work
+30,5,Bachelor of Technology
+31,5,Bachelor of Accountancy
+32,5,Bachelor of Arts in American Studies
+33,5,Bachelor of Arts in American Indian Studies
+34,5,Bachelor of Arts in Applied Psychology
+35,5,Bachelor of Arts in Biology
+36,5,Bachelor of Arts in Anthropology
+37,5,Bachelor of Arts in Child Advocacy
+38,5,Bachelor of Arts in Clinical Psychology
+39,5,Bachelor of Arts in Forensic Psychology
+40,5,Bachelor of Arts in Organizational Psychology
+41,5,Bachelor of Science in Aerospace Engineering
+42,5,Bachelor of Science in Actuarial
+43,5,Bachelor of Science in Agriculture
+44,5,Bachelor of Science in Architecture
+45,5,Bachelor of Science in Architectural Engineering
+46,5,Bachelor of Science in Athletic Training
+47,5,Bachelor of Science in Biology
+48,5,Bachelor of Science in Biomedical Engineering
+49,5,Bachelor of Science in Bible
+50,5,Bachelor of Science in Business Administration
+51,5,Bachelor of Science in Business and Technology
+52,5,Bachelor of Science in Chemical Engineering
+53,5,Bachelor of Science in Chemistry
+54,5,Bachelor of Science in Civil Engineering
+55,5,Bachelor of Science in Clinical Laboratory Science
+56,5,Bachelor of Science in Cognitive Science
+57,5,Bachelor of Science in Computer Engineering
+58,5,Bachelor of Science in Computer Science
+59,5,Bachelor of Science in Construction Engineering
+60,5,Bachelor of Science in Construction Management
+61,5,Bachelor of Science in Criminal Justice
+62,5,Bachelor of Science in Criminology
+63,5,Bachelor of Science in Diagnostic Radiography
+64,5,Bachelor of Science in Education
+65,5,Bachelor of Science in Electrical Engineering
+66,5,Bachelor of Science in Engineering Physics
+67,5,Bachelor of Science in Engineering Science
+68,5,Bachelor of Science in Engineering Technology
+69,5,Bachelor of Science in English Literature
+70,5,Bachelor of Science in Environmental Engineering
+71,5,Bachelor of Science in Environmental Science
+72,5,Bachelor of Science in Environmental Studies
+73,5,Bachelor of Science in Food Science
+74,5,Bachelor of Science in Foreign Service
+75,5,Bachelor of Science in Forensic Science
+76,5,Bachelor of Science in Forestry
+77,5,Bachelor of Science in History
+78,5,Bachelor of Science in Hospitality Management
+79,5,Bachelor of Science in Human Resources Management
+80,5,Bachelor of Science in Industrial Engineering
+81,5,Bachelor of Science in Information Technology
+82,5,Bachelor of Science in Information Systems
+83,5,Bachelor of Science in Integrated Science
+84,5,Bachelor of Science in International Relations
+85,5,Bachelor of Science in Journalism
+86,5,Bachelor of Science in Legal Management
+87,5,Bachelor of Science in Management
+88,5,Bachelor of Science in Manufacturing Engineering
+89,5,Bachelor of Science in Marketing
+90,5,Bachelor of Science in Mathematics
+91,5,Bachelor of Science in Mechanical Engineering
+92,5,Bachelor of Science in Medical Technology
+93,5,Bachelor of Science in Metallurgical Engineering
+94,5,Bachelor of Science in Meteorology
+95,5,Bachelor of Science in Microbiology
+96,5,Bachelor of Science in Mining Engineering
+97,5,Bachelor of Science in Molecular Biology
+98,5,Bachelor of Science in Neuroscience
+99,5,Bachelor of Science in Nursing
+100,5,Bachelor of Science in Nutrition science
+101,5,Bachelor of Science in Software Engineering
+102,5,Bachelor of Science in Petroleum Engineering
+103,5,Bachelor of Science in Podiatry
+104,5,Bachelor of Science in Pharmacology
+105,5,Bachelor of Science in Pharmacy
+106,5,Bachelor of Science in Physical Therapy
+107,5,Bachelor of Science in Physics
+108,5,Bachelor of Science in Plant Science
+109,5,Bachelor of Science in Politics
+110,5,Bachelor of Science in Psychology
+111,5,Bachelor of Science in Public Safety
+112,5,Bachelor of Science in Quantity Surveying Engineering
+113,5,Bachelor of Science in Radiologic Technology
+114,5,Bachelor of Science in Real-Time Interactive Simulation
+115,5,Bachelor of Science in Religion
+116,5,Bachelor of Science in Respiratory Therapy
+117,5,Bachelor of Science in Risk Management and Insurance
+118,5,Bachelor of Science in Science Education
+119,5,Bachelor of Science in Sports Management
+120,5,Bachelor of Science in Systems Engineering
+121,5,Bachelor of Music in Jazz Studies
+122,5,Bachelor of Music in Composition
+123,5,Bachelor of Music in Performance
+124,5,Bachelor of Music in Theory
+125,5,Bachelor of Music in Music Education
+126,5,Bachelor of Science in Veterinary Technology
+127,6,Master of Accountancy
+128,6,Master of Accounting and Information Systems
+129,6,Master of Advanced Study
+130,6,Master of Applied Finance
+131,6,Master of Applied Mathematical Sciences
+132,6,Master of Applied Psychology
+133,6,Master of Applied Science
+134,6,Master of Architecture
+135,6,Master of Arts
+136,6,Master of Arts in Archives and Records Management
+137,6,Master of Arts in Liberal Studies
+138,6,Master of Arts in Museum Studies
+139,6,Master of Arts in Strategic Communication Management
+140,6,Master of Arts in Teaching
+141,6,Master of Athletic Training
+142,6,Master of Bioinformatics
+143,6,Master of Biotechnology
+144,6,Master of Business Administration
+145,6,Master of Business Administration Management of Technology
+146,6,Master of Business
+147,6,Master of Business Economics
+148,6,Master of Business Engineering
+149,6,Master of Business Informatics
+150,6,Master of Chemistry
+151,6,Master of City Planning
+152,6,Master of Commerce
+153,6,Master of Computational Finance
+154,6,Master of Computer Applications
+155,6,Master of Computer Science
+156,6,Master of Communication
+157,6,Master of Counseling
+158,6,Master of Criminal Justice
+159,6,Master in Creative Technologies
+160,6,Master of Design
+161,6,Master of Divinity
+162,6,Master of Economics
+163,6,Master of Education
+164,6,Master of Educational Technology
+165,6,Master of Engineering
+166,6,Master of Engineering Management
+167,6,Master of Enterprise
+168,6,Master of European Law
+169,6,Master of Finance
+170,6,Master of Financial Economics
+171,6,Master of Financial Engineering
+172,6,Master of Financial Mathematics
+173,6,Master of Fine Arts
+174,6,Master of Health Administration
+175,6,Master of Health Science
+176,6,Master of Humanities
+177,6,Master of Industrial and Labor Relations
+178,6,Master of International Affairs
+179,6,Master of International Business
+180,6,Master of International Economics
+181,6,Master of International Public Policy
+182,6,Master of International Studies
+183,6,Master of Information
+184,6,Master of Information Management
+185,6,Master of Information Systems
+186,6,Master of Information System Management
+187,6,Master of Islamic Studies
+188,6,Master of IT
+189,6,Master of Jurisprudence
+190,6,Master of Laws
+191,6,Master of Studies in Law
+192,6,Master of Landscape Architecture
+193,6,Master of Letters
+194,6,Master of Liberal Arts
+195,6,Master of Library and Information Science
+196,6,Master of Management
+197,6,Master of Mass Communication and Journalism
+198,6,Master of Mathematical Finance
+199,6,Master of Mathematics
+200,6,Master of Mathematics and Computer Science
+201,6,Master of Mathematics and Philosophy
+202,6,Master of Medical Science
+203,6,Master of Medicine
+204,6,Master of Military Art and Science
+205,6,Master of Music
+206,6,Master of Network and Communications Management
+207,6,Master of Occupational Therapy
+208,6,Master of Pharmacy
+209,6,Master of Philosophy
+210,6,Master of Physician Assistant Studies
+211,6,Master of Physics
+212,6,Master of Political Science
+213,6,Master of Professional Studies
+214,6,Master of Psychology
+215,6,Master of Public Administration
+216,6,Master of Public Affairs
+217,6,Master of Public Diplomacy
+218,6,Master of Public Health
+219,6,Master of Public Management
+220,6,Master of Public Policy
+221,6,Master of Public Relations
+222,6,Master of Public Service
+223,6,Master of Quantitative Finance
+224,6,Master of Rabbinic Studies
+225,6,Master of Real Estate Development
+226,6,Master of Religious Education
+227,6,Master of Research
+228,6,Master of Sacred Music
+229,6,Master of Sacred Theology
+230,6,Master of Science
+231,6,Master of Science in Applied Cognition and Neuroscience
+232,6,Master of Science in Athletic Training
+233,6,Master of Science in Bioinformatics
+234,6,Master of Science in Clinical Epidemiology
+235,6,Master of Science in Computing Research
+236,6,Master of Science in Cyber Security
+237,6,Master of Science in Education
+238,6,Master of Science in Engineering
+239,6,Master of Science in Development Administration
+240,6,Master of Science in Finance
+241,6,Master of Science in Governance & Organizational Sciences
+242,6,Master of Science in Government Contracts
+243,6,Master of Science in Health Informatics
+244,6,Master of Science in Human Resource Development
+245,6,Master of Science in Information Assurance
+246,6,Master of Science in Information Systems
+247,6,Master of Science in Information Technology
+248,6,Master of Science in Leadership
+249,6,Master of Science in Management
+250,6,Master of Science in Nursing
+251,6,Master of Science in Project Management
+252,6,Master of Science in Quality Assurance
+253,6,Master of Science in Risk Management
+254,6,Master of Science in Supply Chain Management
+255,6,Master of Science in Teaching
+256,6,Master of Science in Taxation
+257,6,Master of Social Science
+258,6,Master of Social Work
+259,6,Master of Statistics
+260,6,Master of Strategic Studies
+261,6,Master of Studies
+262,6,Master of Surgery
+263,6,Master of Theological Studies
+264,6,Master of Technology
+265,6,Master of Theology
+266,6,Master of Urban Planning
+267,6,Master of Veterinary Science
+268,11,Associate Degree in Administration of Justice
+269,11,Associate Degree in Advertising
+270,11,Associate Degree in Agribusiness
+271,11,Associate Degree in Animal Management
+272,11,Associate Degree in Architectural Building Engineering Technology
+273,11,Associate Degree in Architecture and Career Options
+274,11,Associate Degree in Art
+275,11,Associate Degree in Automotive Maintenance Technology
+276,11,Associate Degree in Aviation Mechanics
+277,11,Associate Degree in Behavioral Science
+278,11,Associate Degree in Boat Mechanics
+279,11,Associate Degree in Boat Repair and Maintenance
+280,11,Associate Degree in Cabinet Design Technology
+281,11,Associate Degree in Child Development: Program Summary
+282,11,Associate Degree in Christian Ministry
+283,11,Associate Degree in Cosmetology Business
+284,11,Associate Degree in Digital Media
+285,11,Associate Degree in Early Childhood Special Education
+286,11,Associate Degree in Elementary Education
+287,11,Associate Degree in English
+288,11,Associate Degree in Environmental Science
+289,11,Associate Degree in Environmental Studies
+290,11,Associate Degree in General Psychology
+291,11,Associate Degree in History and Information
+292,11,Associate Degree in Interdisciplinary Studies
+293,11,Associate Degree in International Relations
+294,11,Associate Degree in Landscape Architecture
+295,11,Associate Degree in Landscaping Design
+296,11,Associate Degree in Library Science
+297,11,Associate Degree in Music
+298,11,Associate Degree in Wildlife Management
+299,11,Associate Degree in Education
+300,11,Associate of Applied Science (AAS) in Accelerated Culinary Arts
+301,11,Associate of Applied Science (AAS) in Accounting Specialist
+302,11,Associate of Applied Science (AAS) in Administrative Support
+303,11,Associate of Applied Science (AAS) in Baking and Pastry
+304,11,Associate of Applied Science (AAS) in Business Administration
+305,11,Associate of Applied Science (AAS) in Business Administration - Finance
+306,11,Associate of Applied Science (AAS) in Business Information Systems
+307,11,Associate of Applied Science (AAS) in Civil Justice - Law Enforcement
+308,11,Associate of Applied Science (AAS) in Clinical Medical Assisting
+309,11,Associate of Applied Science (AAS) in Computer Applications
+310,11,Associate of Applied Science (AAS) in Computer Electronics
+311,11,Associate of Applied Science (AAS) in Computer Game Design
+312,11,Associate of Applied Science (AAS) in Computer Information Systems
+313,11,Associate of Applied Science (AAS) in Culinary Arts
+314,11,Associate of Applied Science (AAS) in Digital Media Communications
+315,11,Associate of Applied Science (AAS) in Digital Photography
+316,11,Associate of Applied Science (AAS) in Electronic Engineering
+317,11,Associate of Applied Science (AAS) in Emergency Medical Services
+318,11,Associate of Applied Science (AAS) in Health Care Management
+319,11,Associate of Applied Science (AAS) in Health Information Management
+320,11,Associate of Applied Science (AAS) in Healthcare Administration
+321,11,Associate of Applied Science (AAS) in Legal Office E-ministration
+322,11,Associate of Applied Science (AAS) in Telecommunications Technology
+323,11,Associate of Applied Science (AAS) in Television Production
+324,11,Associate of Applied Science (AAS) in Visual Communications
+325,11,Associate of Arts (AA) in Computer Information Systems
+326,11,Associate of Arts (AA) in Internetworking Technology
+327,11,Associate of Arts (AA) in Psychology
+328,11,Associate of Arts (AA) in Interior Architecture and Design
+329,11,Associate of Biotechnology
+330,11,Associate of Business Science (ABS) in Individualized Studies
+331,11,Associate of Early Childhood Education (AECE)
+332,11,Associate of Occupational Studies (AOS) in Legal Office Administration
+333,11,Associate of Science (AS) in Computer Information Science
+334,11,Associate of Science (AS) in Computer Science
+335,11,"Associate of Science (AS) in Corrections, Probation, & Parole"
+336,11,Associate of Science (AS) in Electronics Engineering Technology
+337,11,Associate of Science (AS) in Interactive & Graphic Art

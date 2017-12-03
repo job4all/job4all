@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  keywords: MyString
+  profession: one
+  degree: one
+  city: one
+  advertise: one
+
+two:
+  keywords: MyString
+  profession: two
+  degree: two
+  city: two
+  advertise: two

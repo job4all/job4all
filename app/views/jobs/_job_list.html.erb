@@ -1,0 +1,35 @@
+
+
+
+<div class='jumbotron'>
+<center><h4><%= @advertise.title %></h4></center>
+<hr class="colorgraph">
+<table class="table">
+  <thead>
+    <tr>
+      <th>Profession</th>
+      <th>Qty</th>
+      <th>Degree</th>
+      <th>City</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @advertise.jobs.each do |job| %>
+      <tr>
+        <td><%= job.profession.name %></td>
+        <td><%= job.qty %></td>
+        <td><%= job.degree.name %></td>
+        <td><%= job.city.name %></td>
+        <% if logged_in_admin? %> 
+        <td><%= link_to 'Destroy', [job.advertise, job], method: :delete,
+               data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+      <% end %>
+    <% end %>
+  </tbody>
+</table>
+</div>
+<br>
+

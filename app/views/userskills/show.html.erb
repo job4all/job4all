@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Skill:</strong>
+  <%= @userskill.skill.name %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @userskill.user.id %>
+</p>
+
+<p>
+  <strong>Lastd:</strong>
+  <%= @userskill.lastd %>
+</p>
+
+<%= link_to 'Edit', edit_userskill_path(@userskill), :class => "btn btn-info" %> |
+<%= link_to 'Back', userskills_path, :class => "btn btn-info" %>

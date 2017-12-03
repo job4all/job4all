@@ -1,0 +1,30 @@
+<center><h3>Userskills</h3></center>
+<hr class="colorgraph">
+<table class="table">
+  <thead>
+    <tr>
+      <th>Skill</th>
+      <th>User</th>
+      <th>Time Period</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @userskills.each do |userskill| %>
+      <tr>
+        <td><%= userskill.skill.name %></td>
+        <td><%= userskill.user.id %></td>
+        <td><%= userskill.lastd %></td>
+        <td><%= link_to 'Show', userskill %></td>
+        <td><%= link_to 'Edit', edit_userskill_path(userskill) %></td>
+        <td><%= link_to 'Destroy', userskill, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<hr class="colorgraph">
+<br>
+
+<%= link_to 'Add New Userskill', new_userskill_path, :class => "btn btn-info" %>

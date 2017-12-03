@@ -1,0 +1,12 @@
+<p>
+  Hi <%= @user.first_name %> <%= @user.last_name %> (<%= @user.email %>)
+</p>
+<p>
+  <h1>Job in Avalible == <%= @advertise.organization.name%><br></h1>
+  Newspaper 			 <%= @advertise.newspaper.name%><br>
+  Advertisment Date   == <%= @advertise.idate %> <br>
+  Last Date For Apply == <%= @advertise.lastdate %> <br>
+</p>
+<p>
+  To view complete advertisment <%= link_to "Click Here", @advertise %>
+</p>

@@ -1,0 +1,21 @@
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<%= form_for(@user, as: @user, url: registration_path(@user), html: { method: :put }) do |f| %>
+			<%= render 'shared/error_messages', object: f.object %>
+			<div class="row">
+				<div class="col-md-4"><%= avatar2(@user) %></div>
+				<div class="col-md-8"><%= f.file_field :avatar %></div>
+				<div class="row">
+				<div class="col-md-8">
+				<br><i>Dimension 400x400</i>
+				</div>
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<%= f.password_field :current_password, autocomplete: "off", class: "form-control", placeholder: "Enter Current Password" %>
+				<%= f.submit "Upload", class: "btn btn-primary" %>
+			</div>
+		<% end %>
+	</div>
+</div>

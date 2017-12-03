@@ -1,0 +1,59 @@
+<%= form_for(experience) do |f| %>
+  <% if experience.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(experience.errors.count, "error") %> prohibited this experience from being saved:</h2>
+
+      <ul>
+      <% experience.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+   
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-xs-4">
+          <%= f.label :designation , "Designation" %>
+          <%= f.text_field :designation , :class => "form-control" %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :profession_id %>
+          <%= f.collection_select(:profession_id, Profession.all, :id, :name,{prompt: "Select Profession"}, class: "form-control") %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :city_id %>
+          <%= f.collection_select(:city_id, City.all, :id, :name,{prompt: "Select City"}, class: "form-control") %>
+        </div>
+      </div>
+<br>
+      <div class="row">
+        <div class="col-xs-4">
+        <%= f.label :organization_id %>
+        <%= f.collection_select(:organization_id, Organization.all, :id, :name,{prompt: "Select Organization"}, class: "form-control") %>
+      </div>
+        <div class="col-xs-4">
+        <%= f.label :start_date , "Start Date" %>
+        <%= f.date_field :start_date, :class => "form-control"%>
+            <script>
+            $('#datepicker1').datepicker({format: 'yyyy-mm-dd'});
+            </script>
+        </div>
+        <div class="col-xs-4">
+        <%= f.label :end_date , "End Date" %>
+        <%= f.date_field :end_date, :class => "form-control"%>
+            <script>
+            $('#datepicker').datepicker({format: 'yyyy-mm-dd'});
+            </script>
+        </div>
+        
+      </div>
+
+    </div>
+
+
+  <div class="actions">
+    <%= f.submit 'Add Experience', :class => "btn btn-info"%>
+    <%= link_to 'Back', experiences_path  , :class => "btn btn-info"%>
+  </div>
+<% end %>

@@ -1,0 +1,77 @@
+<%= form_for(education) do |f| %>
+  <% if education.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(education.errors.count, "error") %> prohibited this education from being saved:</h2>
+
+      <ul>
+      <% education.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-xs-4">
+          <%= f.label :passyear %>
+          <%= f.date_select(:passyear, start_year: 1985, discard_day: true, discard_month: true,prompt: "Select Year" , class: "form-control") %>
+        </div>   
+        <div class="col-xs-4">
+          <%= f.label :tdegree_id %>
+          <%= f.collection_select(:tdegree_id, Tdegree.all, :id, :name,{prompt: "Select Degree Type"}, class: "form-control") %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :degree_id %>
+          <%= f.grouped_collection_select(:degree_id, Tdegree.order(:name), :degrees, :name, :id, :name,{prompt: "Select Degree"}, class: "form-control") %>
+        </div>
+      </div>
+<br>
+    <div class="row">
+        <div class="col-xs-4">
+          <%= f.label :subject %>
+          <%= f.text_field :subject, class: "form-control", placeholder: "Enter Subject" %>
+        </div>
+      <div class="col-xs-4">
+        <%= f.label :city_id %>
+        <%= f.collection_select(:city_id, City.all, :id, :name,{prompt: "Select City"}, class: "form-control") %>
+      </div>
+      <div class="col-xs-4">
+      <%= f.label :institute_id %>
+      <%= f.collection_select(:institute_id, Institute.all, :id, :name,{prompt: "Select Institute"}, class: "form-control") %>
+    </div>
+    </div>
+
+<br>
+    <div class="row">
+      <div class="col-xs-4">
+        <%= f.label :tmarks %>
+        <%= f.number_field :tmarks, class: "form-control", placeholder: "Enter Total Marks" %>
+      </div>
+      <div class="col-xs-4">
+        <%= f.label :omarks %>
+        <%= f.number_field :omarks, class: "form-control", placeholder: "Enter Obtain Marks" %>
+      </div>
+      <div class="col-xs-4">
+        <%= f.label :persent %>
+        <%= f.number_field :persent, class: "form-control", placeholder: "Enter Persentage" , readonly: true%>
+      </div>
+    </div>
+<br>
+
+      <div class="row">
+      <div class="col-xs-4">
+        <%= f.label :division %>
+        <%= f.select :division, options_for_select(%w[1st_Div 2nd_Div 3rd_Div A_Grade B_Grade C_Grade D_Grade E_Grade]) %>
+      </div>
+      </div>
+      
+  </div>
+
+
+  <div class="actions">
+    <%= f.submit 'Add Education' , :class => "btn btn-info"%>
+    <%= link_to 'Back', educations_path , :class => "btn btn-info"%>
+  </div>
+
+<% end %>

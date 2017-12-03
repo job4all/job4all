@@ -1,0 +1,73 @@
+<%= form_for(advertise) do |f| %>
+  <% if advertise.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(advertise.errors.count, "error") %> prohibited this advertise from being saved:</h2>
+
+      <ul>
+      <% advertise.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="jumbotron">
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-xs-4">
+          <%= f.label :newspaper_id , "Newspaper" %>
+          <%= f.collection_select(:newspaper_id, Newspaper.all, :id, :name,{prompt: "Select Newspaper"}, class: "form-control") %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :title , "Title" %>
+          <%= f.text_field :title, class: "form-control", placeholder: "Enter Title" %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :state %>
+          <%= f.select :state, options_for_select(%w[All Punjab Balochistan KPK Shindh  NA/Fata Other]), :class => "form-control" %>
+        </div>
+      </div>
+<br>
+
+      <div class="row">
+        <div class="col-xs-4">
+          <%= f.label :organization_id %>
+          <%= f.collection_select(:organization_id, Organization.all, :id, :name,{prompt: "Select Organization"}, class: "form-control") %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :idate , "Advertise Date" %>
+          <%= f.date_field :idate, :value => Date.today , class: "form-control"%>
+            <script>
+            $('#datepicker').datepicker({format: 'yyyy-mm-dd'});
+            </script>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :lastdate , "Advertise Last Date" %>
+          <%= f.date_field :lastdate, :value => Date.today , class: "form-control"%>
+            <script>
+            $('#datepicker1').datepicker({format: 'yyyy-mm-dd'});
+            </script>
+        </div>
+      </div>
+<br>
+      <div class="row">
+        <div class="col-xs-4">
+          <%= f.label :description , "Enter URL" %>
+          <%= f.text_field :description , class: "form-control", placeholder: "Enter URL" %>
+        </div>
+        <div class="col-xs-4">
+          <%= f.label :image , "Select Advertise" %>
+          <%= f.file_field :image %>
+        </div>
+      </div>
+</div>
+</div>
+
+
+
+
+
+  <div class="actions">
+    <%= f.submit 'Add Advertise' , :class => "btn btn-info"%>
+    <%= link_to 'Back', advertises_path , :class => "btn btn-info"%>
+  </div>
+<% end %>

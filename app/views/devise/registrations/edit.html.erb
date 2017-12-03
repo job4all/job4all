@@ -1,0 +1,45 @@
+<div class="row" style="margin-top:02px">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+
+<h2>Chnage Password <%= resource_name.to_s.humanize %></h2>
+  <hr class="colorgraph">
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+  <%= devise_error_messages! %>
+      <div class="row">
+        <div class="col-md-4"><%= avatar2(@user) %><br><br>
+        <%= f.file_field :avatar %></div>
+      </div>
+
+  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+  <% end %>
+
+<br />
+  <div class="field">
+    <i>(leave blank if you don't want to change it)</i>
+    <%= f.password_field :password, autocomplete: "off" , :class=>"form-control input-lg", :placeholder=>"Chnage Password" %>
+    <% if @minimum_password_length %>
+      <br />
+      <em><%= @minimum_password_length %> characters minimum</em>
+    <% end %>
+  </div>
+
+<br />
+  <div class="field">
+    <%= f.password_field :password_confirmation, autocomplete: "off" , :class=>"form-control input-lg", :placeholder=>"Chnage Confirm Password" %>
+  </div>
+<br />
+  <div class="field">
+     <i>(we need your current password to confirm your changes)</i>
+    <%= f.password_field :current_password, autocomplete: "off" , :class=>"form-control input-lg", :placeholder=>"Current Password" %>
+  </div>
+<hr class="colorgraph">
+  <div class="actions">
+    <%= f.submit "Update" , :class => "btn btn-success"%>
+<%= link_to "Back", :back , :class => "btn btn-success"%>
+  </div>
+<% end %>
+
+</div>
+</div>

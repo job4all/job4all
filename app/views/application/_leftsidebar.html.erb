@@ -1,0 +1,43 @@
+<br>
+
+	<div class="list-group">
+		<span class="list-group-item active header_bg ">
+			<h4><b>Categories</b></h4>
+    </span>
+  </div>
+
+      <div class="row ">
+        <div class="col-md-12 ">
+          
+          
+   <% if current_user %>
+  
+          <span class="list-group-item header_bg ">
+          <li><%= link_to 'Education Details', educations_path %></li>
+          <li><%= link_to 'Work Experience', experiences_path%></li>
+          <li><%= link_to 'User Skills', userskills_path%></li>
+        <%else %>
+        <li>
+          <%= link_to 'Login', new_user_session_path %>
+        </li>
+        <li>
+          <%= link_to 'Signup', new_user_registration_path %>
+        </li>
+        <% end %>
+      <% if logged_in_admin? %>
+        
+            <li><%= link_to 'Institutes', institutes_path %></li>
+            <li><%= link_to 'Organizations', organizations_path %></li>
+            <li><%= link_to 'Professions', professions_path%></li>
+            <li><%= link_to 'Degrees', degrees_path%></li>
+            <li><%= link_to 'Cities', cities_path%></li>
+            <li><%= link_to 'States', states_path%></li>
+            <li><%= link_to 'Countries', countries_path%></li>
+          </ul>
+        </li>
+    </span>
+</div>
+</div>
+</div>
+</div>
+      <% end %>

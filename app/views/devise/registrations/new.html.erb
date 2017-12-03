@@ -1,0 +1,48 @@
+<div class="row" style="margin-top:12px">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+
+<h2>Sign up</h2>
+  <hr class="colorgraph">
+
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+
+  <div>
+    <%= f.text_field :first_name, autofocus: true , :class=>"form-control input-lg", :placeholder=>"First Name" %>
+  </div>
+<br>
+    <div>
+    <%= f.text_field :last_name, autofocus: true , :class=>"form-control input-lg", :placeholder=>"Last Name" %>
+  </div>
+<br>
+    <div>
+    <%= f.text_field :mobile, autofocus: true , :class=>"form-control input-lg", :placeholder=>"Enter Mobile No 03138256569 " %>
+  </div>
+
+<br>
+  <div class="field">
+    <%= f.email_field :email, autofocus: true  , :class=>"form-control input-lg", :placeholder=>"Email (abc@example.com)" %>
+  </div>
+<br />
+
+  <div class="field">
+    <%= f.password_field :password, autocomplete: "off"  , :class=>"form-control input-lg", :placeholder=>"Password" %>
+    <% if @minimum_password_length %>
+    <em>(<%= @minimum_password_length %> characters minimum)</em>
+    <% end %>
+  </div>
+<br>
+
+  <div class="field">
+    <%= f.password_field :password_confirmation, autocomplete: "off" , :class=>"form-control input-lg", :placeholder=>"Confirmation Password" %>
+  </div>
+<hr class="colorgraph">
+
+  <div class="actions">
+    <%= f.submit "Sign up" , :class => "btn btn-block btn-success"%>
+  </div>
+<% end %>
+<%= render "devise/shared/links" %>
+</div>
+</div>

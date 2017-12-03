@@ -1,0 +1,37 @@
+<% if logged_in_admin? %>
+
+    <div class="row">
+        <div class="col-md-12">
+            
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                    <center>    <span class="glyphicon glyphicon-bookmark"></span> Admin Panal Shortcuts</h3></center>
+                </div>
+                <div class="panel-body">
+                <hr class="colorgraph">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-6"><br>&
+                          <a href="http://localhost:3000/cities" class="btn btn-danger btn-lg" role="button"><span class="glyphicon glyphicon-globe"></span> <br/>Cities</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="http://localhost:3000/degrees" class="btn btn-warning btn-lg" role="button"><span class="glyphicon glyphicon-bookmark"></span> <br/>Degrees</a><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="http://localhost:3000/institutes" class="btn btn-info btn-lg" role="button"><span class="glyphicon glyphicon-signal"></span> <br/>Institutes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="http://localhost:3000/professions" class="btn btn-success btn-lg" role="button"><span class="glyphicon glyphicon-comment"></span> <br/>Professions</a>
+                        </div>
+                        <div class="col-xs-6 col-md-6"><br>
+                          <a href="http://localhost:3000/advertises" class="btn btn-danger btn-lg" role="button"><span class="glyphicon glyphicon-tag"></span> <br/>Advertises</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="http://localhost:3000/users/edit" class="btn btn-warning btn-lg" role="button"><span class="glyphicon glyphicon-file"></span> <br/>Password</a><br><br>
+                          <a href="http://localhost:3000/users/1/show_profile" class="btn btn-info btn-lg" role="button"><span class="glyphicon glyphicon-file"></span> <br/>User CV</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="http://localhost:3000/users/1/edit_profile" class="btn btn-success btn-lg" role="button"><span class=" glyphicon glyphicon-user"></span> <br/>User Profile</a>
+                        </div>
+                    </div>
+        <hr class="colorgraph">            
+                </div>
+            </div>
+        </div>
+        
+    </h3>
+    </div>
+    </div>
+    </div>
+    
+
+<% end -%>

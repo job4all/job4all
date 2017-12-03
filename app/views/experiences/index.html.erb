@@ -1,0 +1,36 @@
+
+<center><h3>Experiences Details</h3></center>
+<hr class="colorgraph">
+<table class="table">
+  <thead>
+    <tr>
+      <th>Designation</th>
+      <th>Profession</th>
+      <th>City</th>
+      <th>Organization</th>
+      <th>Start Date</th>
+      <th>End Date</th>
+      
+      <th colspan="2"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @experiences.each do |experience| %>
+      <tr>
+        <td><%= experience.designation %></td>
+        <td><%= experience.profession.name %></td>
+        <td><%= experience.city.name %></td>
+        <td><%= experience.organization.name %></td>
+        <td><%= experience.start_date.strftime("%d-%m-%Y")%></td>
+        <td><%= experience.end_date %></td>
+        <td><%= link_to '', edit_experience_path(experience) ,class: "glyphicon glyphicon-pencil" %></td>
+        <td><%= link_to 'Destroy', experience, method: :delete, data: { confirm: 'Are you sure?' },class: "glyphicon glyphicon-trash" %></td> 
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<hr class="colorgraph">
+<%= link_to 'New Experience', new_experience_path , :class => "btn btn-info"%>

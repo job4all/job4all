@@ -1,0 +1,276 @@
+<% if logged_in_admin? %>
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 	
+	<meta name="author" content="sumit kumar"> 
+	<title>admin-template</title> 
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">	
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="https://use.fontawesome.com/07b0ce5d10.js"></script>
+    </head>
+
+
+<body>
+    
+    <!-- begin SIDE NAV USER PANEL -->     
+
+    
+    <div class="container-2">
+     <div id="page-wrapper">   
+      <div class="row">
+     <div class="col-md-12">
+      <div class="page-title">
+       <center><h2>ADMIN Dashboard</h2></center>
+       </div>
+      </div>
+     </div> 
+                                                 
+        <div class="row" >
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="http://localhost:3000/cities">
+                                <div class="circle-tile-heading dark-blue">
+                                    <i class="fa fa-bell fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content dark-blue">
+
+                                <div class="circle-tile-number text-faded">
+                                    Cities
+                                    <span id="sparklineA"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="http://localhost:3000/degrees">
+                                <div class="circle-tile-heading green">
+                                    <i class="fa fa-star fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content green">
+                                <div class="circle-tile-number text-faded">
+                                    Degrees
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="http://localhost:3000/institutes">
+                                <div class="circle-tile-heading orange">
+                                    <i class="fa fa-institution fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content orange">
+                                <div class="circle-tile-number text-faded">
+                                    Institutes
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="http://localhost:3000/professions">
+                                <div class="circle-tile-heading blue">
+                                    <i class="fa fa-tasks fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content blue">
+                                <div class="circle-tile-number text-faded">
+                                    Professions
+                                    <span id="sparklineB"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="http://localhost:3000/advertises">
+                                <div class="circle-tile-heading red">
+                                    <i class="fa fa-newspaper-o fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content red">
+                                <div class="circle-tile-number text-faded">
+                                    Advertises
+                                    <span id="sparklineC"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="http://localhost:3000/users/edit">
+                                <div class="circle-tile-heading purple">
+                                    <i class="fa fa-key fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content purple">
+                                <div class="circle-tile-number text-faded">
+                                    Password
+                                    <span id="sparklineD"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <div class="row" >
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="http://localhost:3000/users/1/edit_profile">
+                                <div class="circle-tile-heading purple">
+                                    <i class="fa fa-user fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content purple">
+
+                                <div class="circle-tile-number text-faded">
+                                    Profile
+                                    <span id="sparklineA"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="http://localhost:3000/countries">
+                                <div class="circle-tile-heading red">
+                                    <i class="fa fa-podcast fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content red">
+                                <div class="circle-tile-number text-faded">
+                                    Country
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="http://localhost:3000/states">
+                                <div class="circle-tile-heading blue">
+                                    <i class="fa fa-map-pin fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content blue">
+                                <div class="circle-tile-number text-faded">
+                                    State
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="http://localhost:3000/educations">
+                                <div class="circle-tile-heading orange">
+                                    <i class="fa fa-vcard fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content orange">
+                                <div class="circle-tile-number text-faded">
+                                    Education
+                                    <span id="sparklineB"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="http://localhost:3000/experiences">
+                                <div class="circle-tile-heading green">
+                                    <i class="fa fa-universal-access fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content green">
+                                <div class="circle-tile-number text-faded">
+                                    Experience
+                                    <span id="sparklineC"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="http://localhost:3000/userskills">
+                                <div class="circle-tile-heading dark-blue">
+                                    <i class="fa fa-hand-scissors-o fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content dark-blue">
+                                <div class="circle-tile-number text-faded">
+                                    Skills
+                                    <span id="sparklineD"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+   </div><!-- container-1 END-->
+ 
+    
+    
+
+
+ 
+
+    
+    
+    <script src="js/jquery-3.1.1.js"></script>    
+    <script src="js/bootstrap.js"></script>
+    
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".sidebar-toggle").click(function(){
+            $(this).hide();
+            
+           $("#user-profil").show();
+            
+           $("#hide-btn").show();
+            
+           $(".container-2").css("width", "85%");
+            
+             
+        });
+        
+        $("#hide-btn").click(function(){
+            $(this).hide();
+            
+           $("#user-profil").hide();
+            
+           $(".sidebar-toggle").show();
+            
+           $(".container-2").css("width", "100%");
+            
+             
+        });
+    });
+</script>
+
+   
+ 
+   
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<% end -%>

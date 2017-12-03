@@ -1,0 +1,114 @@
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+      <div class="header_bg">
+  <div class="container">
+    <div class="row header">
+      <div class="logo navbar-left">
+        <h1><%= link_to 'Job4All', root_path %></h1>
+      </div>
+      <div class="h_search navbar-right">
+      <%= form_tag(advertises_path, method: :get) do %>
+  <%= text_field_tag :term, params[:term], placeholder: "Enter Text" %>
+  <%= submit_tag 'Search', name: nil %>
+<% end %>
+<p><%= link_to "Advanced Search", new_search_path %></p>
+
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+
+      <div class="container">
+        <div class="row h_menu">
+          <nav class="navbar navbar-default navbar-left" role="navigation">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+
+          
+                  <li><%= link_to "Home", root_path %></li>
+                  <li><%= link_to "Jobs",advertises_path%></li>
+                  <li><%= link_to "Contact",home_contact_path%></li>
+                  <li><%= link_to "About",about_path%></li>
+                 </ul>
+                 <ul class="nav navbar-nav">
+                   <% if logged_in_admin? %>
+			<li><%= link_to 'Admin Panal', panal_user_path(current_user) %></li>
+<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin Data <span class="caret"></span></a>     
+            <ul class="dropdown-menu" role="menu">
+
+            <li><%= link_to 'Enter Institutes', institutes_path %></li>
+            <li><%= link_to 'Enter Organizations', organizations_path %></li>
+            <li><%= link_to 'Enter Professions', professions_path%></li>
+            <li><%= link_to 'Enter Degrees', degrees_path%></li>
+            <li><%= link_to 'Enter Cities', cities_path%></li>
+            <li><%= link_to 'Enter States', states_path%></li>
+            <li><%= link_to 'Enter Countries', countries_path%></li>
+           
+          </ul>
+        </li>
+
+
+                   <% end %>
+            <% if current_user %>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">User Enter Data <span class="caret"></span></a>     
+            <ul class="dropdown-menu" role="menu">
+          <li><%= link_to 'Enter Education Details', educations_path %></li>
+            <li role="separator" class="divider"></li>
+          <li><%= link_to 'Enter Work Experience', experiences_path%></li>
+            <li role="separator" class="divider"></li>
+          <li><%= link_to 'Enter User Skills', userskills_path%></li>
+          </ul>
+        </li>
+
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= current_user.user_name%> <span class="caret"></span></a>
+            
+            <ul class="dropdown-menu" role="menu">
+            <li><%= link_to 'Show profile', show_profile_user_path(current_user) %></li>   
+            <li><%= link_to 'Edit profile', edit_profile_user_path(current_user) %></li>   
+            <li><%= link_to 'Change Password', edit_user_registration_path %></li>
+            <li role="separator" class="divider"></li>
+            <li><%= link_to 'Logout', destroy_user_session_path, :method => :delete %></li>
+           
+          </ul>
+        </li>
+        <%else %>
+        <li>
+          <%= link_to 'Login', new_user_session_path %>
+        </li>
+        <li>
+          <%= link_to 'Signup', new_user_registration_path %>
+        </li>
+        <% end %>
+ 
+      
+      </ul>
+              </div><!-- /.navbar-collapse -->
+              
+          </nav>
+    
+        </div>
+      </div>
+
+
+        
+
+
+
+
+
+

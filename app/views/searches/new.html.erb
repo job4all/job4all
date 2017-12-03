@@ -1,0 +1,35 @@
+
+
+
+<h3>Advanced Search</h3>
+<hr class="colorgraph">
+<%= form_for @search do |f| %>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-xs-6">
+    <%= f.label :keywords %><br />
+    <%= f.text_field :keywords , class: "form-control" %>
+  </div>
+
+    <div class="col-xs-6">
+    <%= f.label :profession_id %><br />
+    <%= f.collection_select :profession_id, Profession.order(:name), :id, :name, include_blank: true , class: "form-control"%>
+  </div>
+  </div>
+      <div class="row">
+    <div class="col-xs-6">
+    <%= f.label :degree_id %><br />
+    <%= f.collection_select :degree_id, Degree.order(:name), :id, :name, include_blank: true , class: "form-control"%>
+  </div>
+    <div class="col-xs-4">
+    <%= f.label :city_id %><br />
+    <%= f.collection_select :city_id, City.order(:name), :id, :name, include_blank: true , class: "form-control"%>
+  </div>
+    
+  </div>
+<br />
+<br />
+<hr class="colorgraph">
+  <div class="actions"><%= f.submit "Search" , :class => "btn btn-info"%></div>
+<% end %>
+  </div>

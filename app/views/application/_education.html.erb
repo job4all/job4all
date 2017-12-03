@@ -1,0 +1,38 @@
+<h4>Education Details</h4>
+<hr class="colorgraph">
+<table class="table">
+  <thead>
+    <tr>
+      <th>Tdegree</th>
+      <th>Degree</th>
+      <th>Subject</th>
+      <th>City</th>
+      <th>Institute</th>
+      <th>Tmarks</th>
+      <th>Omarks</th>
+      <th>Persent</th>
+      <th>Division</th>
+      <th>Passyear</th>
+    </tr>
+  </thead>
+
+  <tbody>
+   <% @user.educations.each do |education| %>
+    
+      <tr>
+        <td><%= education.tdegree.name %></td>
+        <td><%= education.degree.name %></td>
+        <td><%= education.subject %></td>
+        <td><%= education.city.name %></td>
+        <td><%= education.institute.name %></td>
+        <td><%= education.tmarks %></td>
+        <td><%= education.omarks %></td>
+        <td><%= education.persent %></td>
+        <td><%= education.division %></td>
+        <td><%= education.passyear.strftime("%Y")%></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<hr>
+

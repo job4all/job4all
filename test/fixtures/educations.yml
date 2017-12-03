@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tdegree: one
+  degree: one
+  subject: MyString
+  city: one
+  institute: one
+  tmarks: 1
+  omarks: 1
+  persent: 1
+  division: MyString
+  passyear: 2017-05-10
+  user: one
+
+two:
+  tdegree: two
+  degree: two
+  subject: MyString
+  city: two
+  institute: two
+  tmarks: 1
+  omarks: 1
+  persent: 1
+  division: MyString
+  passyear: 2017-05-10
+  user: two
