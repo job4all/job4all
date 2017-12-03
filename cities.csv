@@ -1,0 +1,157 @@
+id,state_id,country_id,name
+1,1,129,Attock
+2,1,129,Bahawalnagar
+3,1,129,Bahawalpur
+4,1,129,Bhakkar
+5,1,129,Chakwal
+6,1,129,Chiniot
+7,1,129,Dera Ghazi Khan
+8,1,129,Faisalabad
+9,1,129,Gujranwala
+10,1,129,Gujrat
+11,1,129,Hafizabad
+12,1,129,Jhang
+13,1,129,Jhelum
+14,1,129,Kasur
+15,1,129,Khanewal
+16,1,129,Khushab
+17,1,129,Lahore
+18,1,129,Layyah
+19,1,129,Lodhran
+20,1,129,Mandi Bahauddin
+21,1,129,Mianwali
+22,1,129,Multan
+23,1,129,Muzaffargarh
+24,1,129,Narowal
+25,1,129,Nankana Sahib
+26,1,129,Okara
+27,1,129,Pakpattan
+28,1,129,Rahim Yar Khan
+29,1,129,Rajanpur
+30,1,129,Rawalpindi
+31,1,129,Sahiwal
+32,1,129,Sargodha
+33,1,129,Sheikhupura
+34,1,129,Sialkot
+35,1,129,Toba Tek Singh
+36,1,129,Vehari
+37,2,129,Badin
+38,2,129,Dadu
+39,2,129,Ghotki
+40,2,129,Hyderabad
+41,2,129,Jacobabad
+42,2,129,Jamshoro
+43,2,129,"KARACHI (East, West, South,"
+44,2,129,Kashmore
+45,2,129,Khairpur
+46,2,129,Larkana
+47,2,129,Matiari
+48,2,129,Mirpurkhas
+49,2,129,Naushahro Firoze
+50,2,129,Shaheed Benazirabad
+51,2,129,Kambar Shahdadkot
+52,2,129,Sanghar
+53,2,129,Sujawal
+54,2,129,Shikarpur
+55,2,129,Sukkur
+56,2,129,Tando Allahyar
+57,2,129,Tando Muhammad Khan
+58,2,129,Tharparkar
+59,2,129,Thatta
+60,2,129,Umerkot
+61,3,129,Abbottabad
+62,3,129,Bannu
+63,3,129,Battagram
+64,3,129,Buner
+65,3,129,Charsadda
+66,3,129,Chitral
+67,3,129,Dera Ismail Khan
+68,3,129,Hangu
+69,3,129,Haripur
+70,3,129,Karak
+71,3,129,Kohat
+72,3,129,Kohistan
+73,3,129,Lakki Marwat
+74,3,129,Lower Dir
+75,3,129,Malakand
+76,3,129,Mansehra
+77,3,129,Mardan
+78,3,129,Nowshera
+79,3,129,Peshawar
+80,3,129,Shangla
+81,3,129,Swabi
+82,3,129,Swat
+83,3,129,Tank
+84,3,129,Tor Ghar
+85,3,129,Upper Dir
+86,4,129,Awaran
+87,4,129,Barkhan
+88,4,129,Kachi (Bolan)
+89,4,129,Chagai
+90,4,129,Dera Bugti
+91,4,129,Gwadar
+92,4,129,Harnai
+93,4,129,Jafarabad
+94,4,129,Jhal Magsi
+95,4,129,Kalat
+96,4,129,Kech (Turbat)
+97,4,129,Kharan
+98,4,129,Kohlu
+99,4,129,Khuzdar
+100,4,129,Killa Abdullah
+101,4,129,Killa Saifullah
+102,4,129,Lasbela
+103,4,129,Loralai
+104,4,129,Mastung
+105,4,129,Musakhel
+106,4,129,Nasirabad
+107,4,129,Nushki
+108,4,129,Panjgur
+109,4,129,Pishin
+110,4,129,Quetta
+111,4,129,Sherani
+112,4,129,Sibi
+113,4,129,Washuk
+114,4,129,Zhob
+115,4,129,Ziarat
+116,4,129,Lehri (not on the map)
+117,4,129,Sohbatpur (not on the map)
+118,4,129,Turbat
+119,5,129,Bajaur Agency
+120,5,129,Khyber Agency
+121,5,129,Kurram Agency
+122,5,129,Mohmand Agency
+123,5,129,North Waziristan Agency
+124,5,129,Orakzai Agency
+125,5,129,South Waziristan Agency
+126,5,129,FR Bannu
+127,5,129,FR Dera Ismail Khan
+128,5,129,FR Kohat
+129,5,129,FR Lakki Marwat
+130,5,129,FR Peshawar
+131,5,129,FR Tank
+132,6,129,Muzaffarabad
+133,6,129,Hattian
+134,6,129,Neelum
+135,6,129,Mirpur
+136,6,129,Bhimber
+137,6,129,Kotli
+138,6,129,Poonch
+139,6,129,Bagh
+140,6,129,Haveli
+141,6,129,Sudhnati
+142,7,129,Astore
+143,7,129,Diamer
+144,7,129,Ghizer
+145,7,129,Ghanche
+146,7,129,Gilgit
+147,7,129,Hunza-Nagar
+148,7,129,Roundu
+149,7,129,Skardu
+150,7,129,Shigar
+151,8,129,Islamabad
+152,6,129,Rawalakot
+153,1,129,Taxila 
+154,2,129,Nawabshah
+155,2,129,Tandojam
+156,2,129,Sakrand

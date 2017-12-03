@@ -1,0 +1,929 @@
+id,name
+1,Ability to Work Under Pressure
+2,Able to Build Relationships
+3,Able to Listen
+4,Able to Operate Under Pressure
+5,Accept Feedback
+6,Accounting
+7,Accuracy
+8,Achievement
+9,Acknowledging Others
+10,Active Listening
+11,Actively listening to the concerns of team members
+12,Acupuncturist
+13,Adaptability to changing circumstances
+14,Adaptability
+15,Adaptable
+16,Adaptable (work in changing environment)
+17,Addressing behavior which disrupts group harmony
+18,Adjusting
+19,Administrative
+20,Administrative / Secretarial
+21,Adobe Illustrator
+22,Adobe InDesign
+23,Adobe Photoshop
+24,Advertising
+25,Advising
+26,Agreeing on roles that capitalize on individual strengths
+27,Aircraft Mechanic
+28,Algorithms
+29,An IT staff member working with the payroll manager to modify the automated system for processing payroll
+30,Analysis
+31,Analytical
+32,Analytical
+33,Analytical
+34,Analytics
+35,Analyzing
+36,Analyzing problems without assigning blame
+37,Android
+38,Android Developer
+39,APIs
+40,Application Design
+41,Applications
+42,Architect
+43,Art Curator
+44,Art Design
+45,Artistic Sense
+46,Assembling
+47,Assembling Apparatus
+48,Assertive
+49,Assertiveness
+50,Assessing group progress
+51,Assessing the strengths and weaknesses of partners
+52,Attentive
+53,Auction House
+54,Auditing
+55,AutoCAD
+56,Automotive
+57,Backup Management
+58,Balancing
+59,Banking
+60,Barista
+61,Bartender
+62,Beautician
+63,Behavioral
+64,Behavioral 
+65,Being Artistic/Creative
+66,Being Thorough
+67,Benchmarking
+68,Big Data
+69,Biomedical Engineer
+70,Bivariate
+71,Blogging
+72,Blue Collar Jobs
+73,Blue Collar
+74,Boilermaker
+75,Bookkeeping
+76,Brainstorming solutions to problems
+77,Brainstorming strategies and solutions freely
+78,Brick Mason
+79,Broadcaster
+80,Budgeting
+81,Building consensus about goals and processes for group projects
+82,Business
+83,Business 
+84,Business analysis
+85,Business Analyst
+86,Business Development
+87,Business Intelligence
+88,Business Manager
+89,Business Storytelling
+90,Business Storytelling 
+91,Business Trend Awareness
+92,C
+93,C++
+94,Calculating
+95,Calculations
+96,Career Counselor
+97,Caring
+98,Carpentry
+99,Case analysis
+100,Cashier
+101,CATWOE
+102,Causal relationships
+103,Certifications
+104,Challenging Employees
+105,Change Leadership
+106,Checking for accuracy
+107,Chef
+108,Chiropractor 
+109,Civil Engineer
+110,Claims Adjuster
+111,Classifying
+112,Classifying Records
+113,Clerical
+114,Client Server
+115,Client Service
+116,Client Support
+117,Clinical Laboratory Technician
+118,Cloud Computing
+119,Coaching
+120,Coaching Individuals
+121,Coding
+122,Cohort analysis
+123,Collaborating
+124,Collaboration
+125,Collect information
+126,College Admissions
+127,Comforting
+128,Commitment
+129,Communication
+130,Communication 
+131,Community Building
+132,Company analysis
+133,Comparative analysis
+134,Comparing
+135,Compassion
+136,Competitive
+137,Compiling
+138,Compiling Statistics
+139,Compromising when necessary to move the group forward
+140,Computer
+141,Computer 
+142,computer and Internet Skills
+143,Computer Languages
+144,Computer Operation
+145,Computer Programming
+146,Computer Systems Analyst
+147,Computing
+148,Conceptual
+149,Concierge 
+150,Conducting Meetings
+151,Confidence
+152,Confidence Building
+153,Confident
+154,Configuration
+155,Conflict Management
+156,Conflict Resolution
+157,Confronting Others
+158,Construction
+159,Constructive Criticism
+160,Consultation
+161,Consulting
+162,Content
+163,Content Management
+164,Content Management Systems (CMS)
+165,Content Manager
+166,Content Managment
+167,Content Marketing
+168,Content Strategist
+169,Content Strategy
+170,Contributing
+171,Cooperation
+172,Cooperation by managers of departments comprising cross functional teams
+173,Cooperative
+174,Coordination
+175,Copywriting
+176,Corel Draw
+177,Corel Word Perfect
+178,Correlation
+179,Cost analysis
+180,Counseling
+181,Counting
+182,Courage
+183,Courteous
+184,Creating Ideas
+185,Creating Innovation
+186,Creating New Procedures
+187,Creating New Solutions
+188,Creative Thinking
+189,Creativity
+190,Credit analysis
+191,Crisis Management
+192,Critical analysis
+193,Critical Observer
+194,Critical Thinker
+195,Critical Thinking
+196,CSS
+197,Cultivating positive group leaders
+198,Custodian
+199,Customer Service
+200,Customer Service 
+201,Customer Support
+202,Data
+203,Data analysis
+204,Data Analyst
+205,Data Analytics
+206,Data collection
+207,Data Engineering
+208,Data Mining
+209,Data Science
+210,Data Scientist
+211,Data Warehousing
+212,Database Administration
+213,Database Administrator
+214,Database Design
+215,Database Management
+216,Deal Making
+217,Deal with Difficult Situations
+218,Deal with Office Politics
+219,Deals with Difficult People
+220,Debugging
+221,Decision Making
+222,Decisiveness
+223,Dedicated
+224,Deductive reasoning
+225,Defining mutually acceptable roles
+226,Defining Performance Standards
+227,Defining Problems
+228,Defining work roles clearly
+229,Delegating tasks to appropriate members
+230,Delegating tasks with open discussion
+231,Delegation
+232,Demonstrations
+233,Dental Assistant
+234,Dental Hygienist
+235,Dentist
+236,Dependability
+237,Dependable
+238,Descriptive analysis
+239,Design
+240,Design Sense
+241,Desire to Learn
+242,Desktop Publishing
+243,Detail Management
+244,Detail-oriented
+245,Developing Rapport
+246,Development
+247,Diagnosing
+248,Diagnosis
+249,Diagnostics
+250,Dietician / Nutritionist
+251,Digital Marketing
+252,Digital Media
+253,Diplomacy
+254,Directing Others
+255,Disability Awareness
+256,Dispensing Information
+257,Displaying a willingness to find solutions to problems
+258,Displaying Ideas
+259,Dispute Resolution
+260,Dissecting
+261,Diversity
+262,Diversity Awareness
+263,Document
+264,Documentation
+265,Drawing consensus around goals and processes
+266,Drawing consensus around goals and strategies
+267,Drilling
+268,Driving
+269,Economics
+270,Editing
+271,Effective Communicator
+272,Efficient
+273,Electrician
+274,Electronics
+275,Eliciting the views of reluctant group members
+276,Email
+277,Emotion Management
+278,Emotional Control
+279,Emotional Intelligence
+280,Empathetic
+281,Empathy
+282,Employability
+283,EMT / Firefighter
+284,Encourage
+285,Encouragement
+286,Encouraging
+287,Encouraging input from reticent members
+288,End User Support
+289,Energetic
+290,Engagement
+291,Engineering
+292,Enhancing productivity
+293,Entertainment
+294,Enthusiastic
+295,Entrepreneurial
+296,Equipment Operation
+297,Ergonomic Sensitivity
+298,Establish Interpersonal Relationships
+299,Establishing group norms
+300,Esthetician 
+301,Evaluating
+302,Evaluative
+303,Event Planning
+304,Examining
+305,Excel
+306,Executive
+307,Executive Assistant
+308,Expanding Ideas
+309,Experience
+310,Experience Dealing with Difficult Personalities
+311,Expression of Feelings
+312,Fabrication
+313,Facilitating
+314,Facilitating group discussion
+315,Fashion Buyer
+316,Fashion Design
+317,Fast Food 
+318,FileMaker Pro
+319,Finance
+320,Finance 
+321,Financial Advisor / Planner
+322,Financial analysis
+323,Financial Management
+324,Financial recording
+325,Financial Report Auditing
+326,Finishing
+327,Flexibility
+328,Flexible
+329,Flexible
+330,Flight Attendant
+331,Follow Instructions
+332,Follow Regulations
+333,Follow Rules
+334,Follow Specifications
+335,Following through with commitments in a reliable manner
+336,Foreign Languages
+337,Forgiving others when they come up short
+338,Fortran
+339,Fourier analysis
+340,Friendly
+341,Front End Web Developer
+342,Functions Well Under Pressure
+343,Fundamental analysis
+344,Fundraiser
+345,Fundraising
+346,Game Development
+347,"Gardening, Landscaping, and Groundskeeping "
+348,General
+349,Give Feedback
+350,Giving credit to others for contributions
+351,Giving Feedback
+352,Goal Setting
+353,Good at Networking
+354,Good at Storytelling
+355,Good Attitude
+356,Good Judgment
+357,Graphic Design
+358,Grinding
+359,Group Decision Making
+360,Group Decisions
+361,Group Facilitating
+362,Guide
+363,Hadoop
+364,Hair Stylist
+365,Handling Complaints
+366,Hard Skills
+367,Hardware
+368,Health / Medical Information Technician
+369,Health Care 
+370,Health Care Skills Listed by Job
+371,Healthcare / Hospital Administration
+372,Hearing Concerns
+373,Heavy Equipment Operator
+374,Help Desk
+375,Helpfulness
+376,Helping
+377,Helping Others
+378,Heptalysis
+379,High Energy
+380,High School Student Skills
+381,Highly Organized
+382,Highly Recommended
+383,Hiring
+384,Hiring team oriented staff
+385,Home Health Aide
+386,Honest
+387,Honesty
+388,Hospitality 
+389,Hospitality Industry
+390,Hospitality Industry 
+391,Hotel and Resort Management
+392,Hotel Front Desk / Guest Services Skills
+393,HTML
+394,Human Resources
+395,Humor
+396,ICTs
+397,Idea Exchange
+398,Identifying cost savings
+399,Identifying obstacles to success
+400,Identifying the strengths and weaknesses of team members
+401,Implementation
+402,Improving
+403,Independent
+404,Independent Action
+405,Inductive Reasoning
+406,Industry analysis
+407,Industry Knowledge
+408,Inferential
+409,Influence/Persuasive
+410,Influencing
+411,Influencing Others
+412,Information Management
+413,Information Search
+414,Information Security
+415,Information Security Analyst
+416,Information Technology
+417,Information Technology 
+418,Infrastructure
+419,Initiative
+420,Innovation
+421,Innovator
+422,Inquiry
+423,Inside Sales
+424,Inspirational
+425,Inspiring
+426,Inspiring Trust
+427,Installation
+428,Instructing
+429,Insurance
+430,Integrity
+431,Intercultural Competence
+432,Interior Design
+433,Internet
+434,Internet/Intranet
+435,Interpersonal
+436,Interpreting
+437,Interviewing
+438,Interviewing clients to determine their needs and preferences
+439,Interviews
+440,Inventing New Ideas
+441,Investigating
+442,Investigation
+443,Investing the required time and energy in collaborative tasks
+444,Investment Banking Analyst
+445,Involvement
+446,iOS
+447,iOS Developer
+448,iPhone
+449,IT Manager
+450,IT Soft Skills
+451,Java
+452,Javascript
+453,Job Specific Skills
+454,Journalist
+455,Judgment
+456,Knowledge Management
+457,Knowledge of Current Governmental Affairs
+458,Language
+459,Language Translation
+460,Languages
+461,Law Enforcement Skills
+462,Lead
+463,Leadership
+464,Leadership 
+465,Leadership
+466,Leadership/Supervisor
+467,Learning
+468,Legal
+469,Librarian
+470,Licensed Practical Nurse (LPN) Skills
+471,Life Skills
+472,Linux
+473,Listening
+474,Listening 
+475,Listening to the concerns of team members
+476,Locating Missing Documents/Information
+477,Logic
+478,Logical Argument
+479,Logical Thinking
+480,Loglinear analysis
+481,Loyal and Discreet (maintain confidentiality)
+482,Mac
+483,Machinist
+484,Maintaining a sense of humor and fun whenever possible
+485,Maintaining High Levels of Activity
+486,Maintenance
+487,Maintenance and Janitorial
+488,Make Deadlines
+489,Makeup Artist
+490,Making sure the perspective of quieter collaborators is heard
+491,Management
+492,Management 
+493,Management Trainee
+494,Managing Difficult Conversations
+495,Managing Finances
+496,Managing Remote Teams
+497,Managing Virtual Teams
+498,Manual Dexterity
+499,Market Research 
+500,Market Research Analyst
+501,Marketing
+502,Marketing Automation Specialist / Manager
+503,Massage Therapist 
+504,Mathematics
+505,MATLAB
+506,Maya
+507,Measuring Boundaries
+508,Mechanical
+509,Mechanical Engineer
+510,Media Planner / Buyer
+511,Media Planning
+512,Mediating
+513,Mediating Problems
+514,Mediation
+515,Medical Assistance
+516,Medical Assistant
+517,Medical Secretary
+518,Meeting Deadlines
+519,Meeting deadlines for individual contributions
+520,Meeting Management
+521,Members of a Human Resources department meeting with a consultant to develop a new family leave policy
+522,Mentoring
+523,Mentoring new members
+524,Meteorologist
+525,Methodology
+526,Metrics
+527,Microsoft Excel
+528,Microsoft Office
+529,Microsoft Office Skills
+530,Microsoft Outlook
+531,Microsoft Publisher
+532,Microsoft Visual
+533,Microsoft Word
+534,Mobile
+535,Mobile Apps
+536,Mobile Development
+537,Modeling
+538,Modification
+539,Modifying roles and processes to enhance efficiency and satisfaction among partners
+540,Monetary Collection
+541,MOST
+542,Motivated
+543,Motivating
+544,Motivation
+545,Motivational
+546,Multitasking
+547,Multi-tasking
+548,Multitasking 
+549,Multiway data analysis
+550,Museum Curator
+551,MySQL
+552,Naturopathic Physician
+553,Needs Analysis
+554,Negotiating
+555,Negotiation
+556,Negotiation 
+557,Negotiations
+558,Network Admin.
+559,Network and Information Security
+560,Network Architecture
+561,Network Security
+562,Networking
+563,Networks
+564,New Technologies
+565,Newsletters
+566,Nonverbal Communication
+567,Numerical Analysis
+568,Nurse Practitioner
+569,Nurses and Doctors in the emergency room playing complementary roles to treat patients
+570,Nursing
+571,Nursing Assistant
+572,Occupational Therapist
+573,Occupational Therapy Assistant
+574,Office Assistant
+575,Office Manager
+576,Online Marketing
+577,Open Minded
+578,Open Source Software
+579,Openness to new ideas about how to proceed
+580,Operating Systems
+581,Operations
+582,Opinion Exchange
+583,Optician
+584,Optimism
+585,Optimization
+586,Oracle
+587,Oral Communication
+588,Oration
+589,Organization
+590,Organization Strategies
+591,Organizational
+592,Organizational Management
+593,Organizational Skills
+594,Organizational Tasks
+595,Organizing
+596,Overseeing Meetings
+597,Overseeing Operation
+598,Pacing analysis
+599,Painter
+600,Paralegal / Legal Assistant
+601,Participation
+602,Passion
+603,Patience
+604,PC / Desk Top
+605,People Development
+606,Perform Effectively in a Deadline Environment
+607,Perform Tasks
+608,Performance
+609,Performance Management
+610,Perl
+611,Perseverance
+612,Persistence
+613,Personal
+614,Personal Assistant
+615,Personal Interaction
+616,Personal Trainer
+617,Persuading
+618,Persuasion
+619,Persuasive
+620,PESTLE
+621,Pharmaceutical Sales
+622,Pharmacist 
+623,Pharmacy Technician
+624,Phlebotomist
+625,Photography
+626,PHP
+627,Physical Communication
+628,Physical Therapist
+629,Physical Therapy Assistant
+630,Physician 
+631,Physician Assistant
+632,Pilot
+633,Pipefitter
+634,Plan Development
+635,Planning
+636,Planning / Event Planning
+637,Platforms
+638,Plumber
+639,Policy analysis
+640,Policy Analyst
+641,Positive Attitude
+642,Positive Reinforcement
+643,Positive Work Ethic
+644,Possess Business Ethics
+645,Prediction
+646,Predictive analytics
+647,Predictive modeling
+648,Preparing Written Documents
+649,Prescriptive analytics
+650,Presentation
+651,Presentations
+652,Price earnings ratio
+653,Price earnings to growth
+654,Principal component analysis
+655,Principal Concept Knowledge
+656,Prioritization
+657,Prioritizing
+658,Problem Solving
+659,Process analysis
+660,Process Improvement
+661,Processing
+662,Producing
+663,Product Manager
+664,Product Reliability
+665,Proficiency
+666,Programming
+667,Project Management
+668,Project Manager
+669,Project Mgmt.
+670,Promotions
+671,Proper Business Etiquette
+672,Proposal Writing
+673,Proposals
+674,Providing feedback
+675,PT Modeler
+676,Public / Non Profit Administrator
+677,Public Affairs official from a corporation cooperating with the American Cancer Society to plan a fundraising event
+678,Public Health
+679,Public Relations
+680,Public Speaking
+681,Public Relations
+682,Publications
+683,Punctual
+684,Python
+685,Qualitative analysis
+686,Quality Assurance
+687,Quality Control
+688,Quantitative analysis
+689,Quantitative Reports
+690,Quantitative Research
+691,Questioning
+692,Questioning Others
+693,Quick Learner
+694,QuickBooks
+695,QuickBooks 
+696,Quick-witted
+697,Radiologic Technologist 
+698,Read Body Language
+699,Reading Volumes
+700,Real Estate
+701,Reasoning
+702,Receive Feedback
+703,Receptionist 
+704,Recognizing and resolving conflicts with collaborators
+705,Recognizing and rewarding group achievements
+706,Recognizing the contributions of other collaborators
+707,Recognizing the strengths and weaknesses of collaborators
+708,Recommendations
+709,Recording and disseminating team solutions
+710,Recording facts
+711,Recruiting
+712,Refinishing
+713,Regulating Rules
+714,Rehabilitating Others
+715,Relationship Building
+716,Relationship Management
+717,Reliability
+718,Reliable
+719,Remembering Facts
+720,Remodeling
+721,Repairing
+722,Report Writing
+723,Reporting
+724,Research
+725,Research Assistant
+726,Resilient
+727,Resolution
+728,Resolving
+729,Resolving Issues
+730,Resourceful
+731,Respect
+732,Respectable
+733,Respectful
+734,Respiratory Therapist
+735,Responding to constructive criticism
+736,Responsibility
+737,Responsible
+738,Restaurant and Food Service
+739,Restaurant Host / Hostess 
+740,Restoration
+741,Restructuring
+742,Results Oriented
+743,Retail
+744,Retail Associate
+745,Retail Buyer
+746,Retail Industry
+747,Retail Manager 
+748,Retail Merchandiser
+749,Retail Sales
+750,Return on investment (ROI)
+751,Rhetorical analysis
+752,Risk assessment
+753,Risk Management
+754,Ruby
+755,Safety Conscious
+756,Sales
+757,Sales Associate
+758,SAS�
+759,Scatter plots
+760,Scenario analysis
+761,Scheduling
+762,School Psychologist
+763,Screening Calls
+764,SCRS
+765,Scrum Master 
+766,Search Engine Optimization (SEO)
+767,Security
+768,Selecting compatible partners to carry out projects
+769,Self-awareness
+770,Self-confidence
+771,Self-directed
+772,Self-direction
+773,Self-monitoring
+774,Self-motivation
+775,Self-motivation�
+776,Self-supervising
+777,Selling Skills
+778,Sense of Humor
+779,Sensitivity
+780,Sentimental analysis
+781,SEO / SEM Marketing
+782,Server
+783,Servers
+784,Service
+785,Setting expectations
+786,Shade
+787,Sharing Credit
+788,Sharing feelings of frustration or dissatisfaction as they occur
+789,Sketching
+790,Social
+791,Social analysis
+792,Social Media
+793,Social Media Experience
+794,Social Media Management
+795,Social Networking
+796,Social Work
+797,Soft Skills
+798,Software
+799,Software Developer
+800,Software Engineer
+801,Software Engineering
+802,Software Management
+803,Software Quality Assurance (QA) Engineer
+804,Software Sales Representative
+805,Solution Delivery
+806,Sorting
+807,Speaking respectfully with team members
+808,Speech Pathologist
+809,Spreadsheet
+810,SPSS
+811,SQL
+812,Statistical analysis
+813,Stay on Task
+814,Storage
+815,Strategic Change
+816,Strategic planning
+817,Strategic Planning 
+818,Strategy
+819,Streamlining processes
+820,Strengths�(List of Examples)
+821,Stress Management
+822,Structured data analysis
+823,Structures
+824,Successful Coach
+825,Supervising
+826,Supervision
+827,Support
+828,Supportive
+829,Surveying
+830,Surveyor
+831,SWOT
+832,Sympathy
+833,Synthesizing
+834,Systems Administration
+835,Systems Analysis
+836,Tact
+837,Take Criticism
+838,Taking inventory
+839,Taking responsibility for mistakes
+840,Taking Risks
+841,Talent Management
+842,Task Management
+843,Teachers and parents working together to develop strategies to modify a child's disruptive classroom behaviors
+844,Teaching
+845,Team Building
+846,Team Building Activities
+847,Team Management
+848,Team Oriented
+849,Team Player
+850,Teamwork
+851,Tech Skills Listed by Job
+852,Tech Support
+853,Technical
+854,Technical 
+855,Technical analysis
+856,Technical Support
+857,Technical Support Engineer
+858,Technical Writer
+859,Technical Writing
+860,Technology
+861,Technology Savvy
+862,Technology Trend Awareness
+863,Telecom
+864,Telecommunications Equipment Installer
+865,Television / Film Producer
+866,Terminating chronically unproductive team members
+867,Testing
+868,Thinks Outside the Box
+869,Time Management
+870,Tolerance
+871,Tolerant of Change and Uncertainty
+872,Toleration
+873,Tools
+874,Train the Trainer
+875,Trainable
+876,Training
+877,Training Coordinator
+878,Transferable
+879,Transformation
+880,Travel Agent / Coordinator
+881,Trouble shooting
+882,Troubleshooter
+883,Troubleshooting
+884,Truck Driver
+885,Trust
+886,UI / UX 
+887,UI/UX 
+888,Ultrasound Technician
+889,Understanding Feelings
+890,Underwriter
+891,Univariate
+892,Unix
+893,Updating collaborators on developments with the project
+894,Updating Files
+895,Usability
+896,User Experience / User Interface
+897,User Testing
+898,Value Education
+899,Verbal Communication
+900,Veterinary Technician
+901,Vision
+902,Visual Communication
+903,Waiter / Waitress
+904,Web Applications
+905,Web Content
+906,Web Design
+907,Web Development
+908,Web Page Design
+909,Web Programming
+910,Wedding / Special Events Planner
+911,Welder
+912,Well Groomed
+913,Willing to Accept Feedback
+914,Willingness to Learn
+915,Windows
+916,Word Processing
+917,WordPress
+918,Work Well Under Pressure
+919,Working hard to fulfill obligations to the team
+920,Work-Life Balance
+921,Writing
+922,Writing Experience
+923,Writing Reports and Proposals
+924,Writing Skills
+925,Written and Verbal Communication
+926,Written Communication
+927,XHTML
+928,XML
